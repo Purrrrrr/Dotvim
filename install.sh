@@ -4,5 +4,4 @@ SCRIPTPATH=`dirname $SCRIPT`
 
 ln -s $SCRIPTPATH/_vimrc ~/.vimrc
 ln -s $SCRIPTPATH/_vim ~/.vim
-git submodule init
-git submodule update
+git submodule update --init
