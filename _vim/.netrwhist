@@ -1,11 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/david/Projects/haywire/CMakeFiles'
-let g:netrw_dirhist_2='/home/david/Projects/Work/matkapojat/web/modules/mod_custom_module'
-let g:netrw_dirhist_3='/home/david/Projects/Work/matkapojat/web/administrator/components/com_helpchat/install'
-let g:netrw_dirhist_4='/home/david/Projects/Work/matkapojat/web/components/com_helpchat/views'
-let g:netrw_dirhist_5='/home/david/Projects/Work/matkapojat/web/administrator/components/com_helpchat/javascript'
-let g:netrw_dirhist_6='/home/david/Projects/Work/matkapojat/web/components/com_helpchat/views'
-let g:netrw_dirhist_7='/home/david/matkapojat'
-let g:netrw_dirhist_8='/home/david/.vim'
-let g:netrw_dirhist_9='/home/david/Downloads'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/var/www/matkapojat-uusi/web/libraries'
+let g:netrw_dirhist_2='/var/www/matkapojat-uusi/web/libraries/matkapojat'
