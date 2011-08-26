@@ -10,3 +10,6 @@
 [submodule "_vim/bundle/manpageview"]
 	path = _vim/bundle/manpageview
 	url = https://github.com/vim-scripts/ManPageView.git
+[submodule "_vim/bundle/checksyntax"]
+	path = _vim/bundle/checksyntax
+	url = https://github.com/vim-scripts/checksyntax-B.git
