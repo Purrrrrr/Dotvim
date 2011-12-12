@@ -12,4 +12,4 @@
 	url = https://github.com/vim-scripts/ManPageView.git
 [submodule "_vim/bundle/checksyntax"]
 	path = _vim/bundle/checksyntax
-	url = https://github.com/vim-scripts/checksyntax-B.git
+	url = https://github.com/tomtom/checksyntax_vim.git
