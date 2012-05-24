@@ -1,12 +1,16 @@
 [submodule "_vim/bundle/snipmate"]
 	path = _vim/bundle/snipmate
 	url = https://github.com/msanders/snipmate.vim.git
+  ignore = untracked
 [submodule "_vim/bundle/vim-autocomplpop"]
 	path = _vim/bundle/vim-autocomplpop
 	url = https://github.com/clones/vim-autocomplpop.git
+  ignore = untracked
 [submodule "_vim/bundle/vim-l9"]
 	path = _vim/bundle/vim-l9
 	url = https://github.com/clones/vim-l9.git
+  ignore = untracked
 [submodule "_vim/bundle/checksyntax"]
 	path = _vim/bundle/checksyntax
 	url = https://github.com/tomtom/checksyntax_vim.git
+  ignore = untracked
