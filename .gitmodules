@@ -14,6 +14,13 @@
 	path = _vim/bundle/checksyntax
 	url = https://github.com/tomtom/checksyntax_vim.git
   ignore = untracked
-[submodule "ctrlp.vim"]
-	path = ctrlp.vim
-	url = ./_vim/bundle/ctrlp.vim
+[submodule "_vim/bundle/ctrlp"]
+	path = _vim/bundle/ctrlp
+	url = https://github.com/kien/ctrlp.vim.git
+  ignore = untracked
+[submodule "_vim/bundle/zencoding-vim"]
+	path = _vim/bundle/zencoding-vim
+	url = https://github.com/mattn/zencoding-vim.git
+[submodule "_vim/bundle/ctrlp.vim"]
+	path = _vim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
