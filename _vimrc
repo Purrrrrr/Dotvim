@@ -1,6 +1,12 @@
 call pathogen#infect()
 call pathogen#helptags()
 
+autocmd BufRead,BufNewFile ~/Documents/Ajatuksia/* call SetTextOptions()
+
+function! SetTextOptions()
+  setlocal textwidth=70
+endfunction
+
 syntax on
 filetype plugin indent on
 set autoindent
@@ -21,3 +27,6 @@ set statusline +=\ %m              "modified flag
 set statusline +=\ %=\ %l/%L\      "Rownumber
 set statusline +=\ col:%03v\       "Colnr
 set statusline +=0x%04B\           "character under cursor
+
+let g:ycm_key_list_select_completion = ['<Down>']
+let g:ycm_key_list_previous_completion=['<Up>']

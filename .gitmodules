@@ -24,3 +24,12 @@
 [submodule "_vim/bundle/ctrlp.vim"]
 	path = _vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "_vim/bundle/YouCompleteMe"]
+	path = _vim/bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "_vim/bundle/ultisnips"]
+	path = _vim/bundle/ultisnips
+	url = git://github.com/SirVer/ultisnips.git
+[submodule "_vim/bundle/vim-pandoc"]
+	path = _vim/bundle/vim-pandoc
+	url = https://github.com/vim-pandoc/vim-pandoc.git
