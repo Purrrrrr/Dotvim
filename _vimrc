@@ -30,3 +30,5 @@ set statusline +=0x%04B\           "character under cursor
 
 let g:ycm_key_list_select_completion = ['<Down>']
 let g:ycm_key_list_previous_completion=['<Up>']
+
+let g:pandoc_no_folding = 1
