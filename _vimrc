@@ -3,6 +3,8 @@ call pathogen#helptags()
 
 autocmd BufRead,BufNewFile ~/Documents/Ajatuksia/* call SetTextOptions()
 
+au BufRead,BufNewFile,BufEnter ~/BlockOut/* setlocal noexpandtab
+
 function! SetTextOptions()
   setlocal textwidth=70
 endfunction
@@ -13,9 +15,16 @@ set autoindent
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 set bs=2
 
+let g:vimclojure#HighlightBuiltins = 1
+let g:vimclojure#ParenRainbow = 1
+set nocompatible
+
 let g:ctrlp_clear_cache_on_exit = 0
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
 "au BufRead,BufNewFile *.php set ft=php.html
+
+au BufRead,BufNewFile *.y set syntax=happy
 
 au FileType php set omnifunc=phpcomplete#CompletePHP
 

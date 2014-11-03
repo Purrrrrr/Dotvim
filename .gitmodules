@@ -33,3 +33,6 @@
 [submodule "_vim/bundle/vim-pandoc"]
 	path = _vim/bundle/vim-pandoc
 	url = https://github.com/vim-pandoc/vim-pandoc.git
+[submodule "_vim/bundle/rename"]
+	path = _vim/bundle/rename
+	url = https://github.com/danro/rename.vim.git
